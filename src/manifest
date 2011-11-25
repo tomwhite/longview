@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: org.tiling.longview.TheLongView
+Class-Path: core.jar superellipse.jar calendrica.jar
+

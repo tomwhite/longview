@@ -1,0 +1,65 @@
+Easter
+
+Produce a postcard view of Easter from 2000 - 2100 (21st century)...
+
+* Useful - find out date
+* Minimal - not cluttered (see Visual Display...)
+* Informational - see span of Easter dates (March 22 - April 25).
+* Beautiful - superellipses
+* Accurate - double checking algorithm
+* New - interesting way of looking at a long span of time
+
+----
+
+1. Add years on inside of left-hand scale:
+just decades 2000, 2010, ..., 2100.
+
+2. Add days. Write "March" on left side of bottom scale,
+"April" on right side of bottom scale.
+22, 30, 1, 10, 20, 25 above bottom scale.
+
+----
+
+How to import into CorelDraw
+
+1. Run from DOS
+2. Drag picture down so it looks as if it will fall off bottom of page!
+3. Print to Postscript file.
+4. Import into Corel Draw by double clicking on out.ps.
+5. Set page setup to be A6 (Layout | Page Setup...).
+6. Arrange | Transform | size to be proportional and vertical 138mm
+7. Also re-position so the image is in the centre of the card.
+8. Add text!
+9. Re-do colours (in CMYK profile - they will have been dulled on import!)
+9. Export as tif, 500DPI
+----
+
+Font for back of card.
+Position text properly.
+
+----
+
+Companies
+
+Format prefs: PDF, EPS, TIFF, PICT, CGM (?)
+
+1. New Perpectives
+	250 for £95 + VAT
+	150mm x 105mm, 350 gsm
+	formats unknown, "typesetting" back of card
+	choice of matt or gloss
+	17-22 working days
+	
+2. colourcards
+	1000 for £95 + VAT
+	A6 (148x105)mm, 260 gsm white consort
+	PDF, PS + major packages (not Corel)
+	no choice matt or gloss (presumably gloss)
+	10 day turnaround
+	
+3. The Postcard Company Ltd
+	500 for £67 + VAT + £10 postage
+	148x100mm, unknown weight
+	TIFF, EPS or JPEG, Adobe Photoshop 3 or 5 (Mac)
+	can do matt (but at extra cost?)
+	10 days
