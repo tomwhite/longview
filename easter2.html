@@ -1,0 +1,43 @@
+<!--
+Copyright 2010 Tom White
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<html>
+ <head>
+  <title>101 Easters - from 2000 to 2100</title>
+  <script type="application/javascript" src="easter.js"></script>
+  <script type="application/javascript" src="superellipse.js"></script>
+  <script type="application/javascript">
+  
+function draw() {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+
+  var colors = ['rgb(200, 44, 71)', 'rgb(86, 185, 212)', 'rgb(94, 30, 120)']
+  var s = 3;
+  ctx.scale(s, s);
+  ctx.translate(80/s, 0/s);
+
+  var i = 0;
+  for (var d in new EasterDateRange(2000, 2101)) {
+    drawSuperellipse(ctx, d.getDayNumber(), d.getFullYear() - 2000, 1.5, 1.5, Math.E, colors[i % 3]);
+    i++;
+  }
+}
+  </script>
+ </head>
+ <body onload="draw()">
+   <canvas id="canvas" width="600" height="600"></canvas>
+ </body>
+</html>
